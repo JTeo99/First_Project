@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Londrina+Outline&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+header {
+    background-color: black;
+}
+
 h1 {
-    font-family: arial;
-    color: blue;
+    font-family: 'Londrina Outline', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 280%;
 }
