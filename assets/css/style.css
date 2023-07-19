@@ -94,7 +94,6 @@ video {
     float: right;
     width: 70%;
     height: 100%;
-    display: inline-block;
 }
 
 #about-us-heading {
@@ -106,6 +105,5 @@ video {
 #about-us-image {
     height: 100%;
     width: 30%;
-    display: inline-block;
     float: right;
 }
