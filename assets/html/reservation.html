@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <!-- consistent header-->
     <div id="heading">
         <header>
             <a href="home.html">
@@ -33,22 +34,26 @@
             </nav>
         </header>
     </div>
+    <!-- Reservation form-->
     <section>
         <div class="reservation-div">
             <h2>Reservations</h2>
             <form method="post" action="reserved.html" class="reservation-form">
-                <input type="text" name="fname" id="fname" placeholder="First Name" required />
-                <input type="text" name="surname" id="surname" placeholder="Surname" required />
-                <input type="email" name="email" id="email" placeholder="Email Address" required />
-                <input type="tel" maxlength="11" name="telephone" id="telephone" placeholder="Mobile Number" required />
-                <input type="date" name="date" min="2023-07-20" max="2024-01-20" id="date" required />
-                <input type="time" name="time" min="12:00" max="19:00" id="time" required />
-                <input type="number" name="party-size" min="1" id="party-size" placeholder="Party Size" required />
-                <input type="textarea" name="notes" id="notes" rows="10" cols="40" placeholder="Allergens and notes">
-                <input type="submit" id="submit" name="submit" />
+                <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                <input type="text" name="surname" id="surname" placeholder="Surname" required>
+                <input type="email" name="email" id="email" placeholder="Email Address" required>
+                <input type="tel" maxlength="11" name="telephone" id="telephone" placeholder="Mobile Number" required>
+                <input type="date" name="date" min="2023-07-20" max="2024-01-20" id="date" required>
+                <input type="time" name="time" min="12:00" max="19:00" id="time" required>
+                <input type="number" name="party-size" min="1" id="party-size" placeholder="Party Size" required>
+                <br>
+                <textarea name="notes" id="notes" rows="5" cols="40" placeholder="Allergens and notes">Allergens and notes
+                    </textarea>
+                <input type="submit" id="submit" name="submit">
             </form>
         </div>
     </section>
+    <!-- consistent footer-->
     <footer>
         <ul class="social-networks">
             <li>
