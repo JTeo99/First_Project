@@ -271,7 +271,18 @@ footer {
 
     .sections {
         width: 90%;
-        height: 300px;
+        height: 600px;
+    }
+
+    .sections-body {
+        display: inline-block;
+        margin: auto;
+        width: 100%;
+        height: 200px;
+    }
+
+    .images {
+        width: 100%;
     }
 
     .menu-div {
@@ -296,9 +307,4 @@ footer {
         height: 770px;
         margin: auto;
     }
-
-    textarea {
-        resize: none;
-    }
-
 }
