@@ -78,32 +78,75 @@ video {
     padding: 35px;
 }
 
-.two-thirds {
-    width: 70%;
-    margin: 0 auto;
-}
+.two-thirds {}
 
-#about-us {
+.sections {
+    width: 66%;
+    margin: 35px auto;
     height: 300px;
-    margin-top: 35px;
     background-color: black;
     color: white;
 }
 
-#about-us-box {
-    float: right;
+.resize {
+    height: 100%;
+    width: auto;
+}
+
+#about-us-text {
     width: 70%;
     height: 100%;
+    margin: auto;
 }
 
-#about-us-heading {
-    border-bottom: 1px solid white;
+.section-headings {
     clear: both;
     line-height: 35px;
+    width: 100%;
+    margin: auto;
+    font-size: 150%;
 }
 
-#about-us-image {
+hr {
+    border-top: 1px solid white;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.images {
     height: 100%;
     width: 30%;
-    float: right;
+    overflow: hidden;
+}
+
+#time-table {
+    height: 300px;
+    margin: auto;
+    margin-top: 35px;
+    background-color: black;
+    color: white;
+
+}
+
+#about-us-text {
+    float: left;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+#opening-times-header {
+    clear: both;
+    line-height: 35px;
+    width: 100%;
+    margin: auto;
+    font-size: 150%;
 }
