@@ -49,7 +49,6 @@ h1 {
 
 #navigation ul {
     float: right;
-    vertical-align: middle;
 }
 
 #navigation li {
@@ -86,6 +85,7 @@ video {
     height: 300px;
     background-color: black;
     color: white;
+    text-align: center;
 }
 
 .resize {
@@ -93,7 +93,7 @@ video {
     width: auto;
 }
 
-#about-us-text {
+.sections-body {
     width: 70%;
     height: 100%;
     margin: auto;
@@ -121,32 +121,43 @@ hr {
     float: left;
 }
 
+.section-text {
+    margin: 10px;
+}
+
 .images {
     height: 100%;
     width: 30%;
     overflow: hidden;
 }
 
-#time-table {
-    height: 300px;
+#timetable {
+    height: 80%;
     margin: auto;
-    margin-top: 35px;
+}
+
+#map-div {
     background-color: black;
     color: white;
-
-}
-
-#about-us-text {
-    float: left;
-    width: 70%;
-    height: 100%;
+    height: 325px;
+    width: 80%;
     margin: auto;
+    text-align: center;
+    overflow: hidden;
 }
 
-#opening-times-header {
-    clear: both;
-    line-height: 35px;
+#map {
+    height: 300px;
     width: 100%;
+}
+
+footer {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 140%;
+    letter-spacing: 4px;
+    vertical-align: top;
     margin: auto;
-    font-size: 150%;
 }
