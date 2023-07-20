@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
 
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
 
@@ -25,32 +25,36 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="menu.html" class="active">Menu</a>
+                        <a href="menu.html">Menu</a>
                     </li>
                     <li>
-                        <a href="reservation.html">Reservations</a>
+                        <a href="reservation.html" class="active">Reservations</a>
                     </li>
                 </ul>
             </nav>
         </header>
     </div>
-    <!-- images of the menu for the menu page of the website-->
-    <div class="menu-div">
-        <img class="menu-img" src="../pictures/menu1.jpg"
-            alt="The first part of menu that contains starters/extras, main meals (including wraps) and sauces">
-    </div>
-    <div class="menu-div">
-        <img class="menu-img" src="../pictures/menu2.jpg"
-            alt="The second part of menu that contains Roast Duck, Poached Chicken, soft drinks and milkshakes">
-    </div>
-    <div class="menu-div">
-        <img class="menu-img" src="../pictures/menu3.jpg" alt="The third part of menu that contains hot drinks">
-    </div>
-    <div class="menu-div">
-        <img class="menu-img" src="../pictures/menu4.jpg"
-            alt="The fourth part of menu that contains East Asian groceries to take away and korean donuts for a sweet treat">
-    </div>
-    <!-- consister footer-->
+    <!-- Reservation form-->
+    <section>
+        <div class="reservation-div">
+            <h2>Reservations</h2>
+            <form method="post" action="reserved.html" class="reservation-form">
+                <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                <input type="text" name="surname" id="surname" placeholder="Surname" required>
+                <input type="email" name="email" id="email" placeholder="Email Address" required>
+                <input type="tel" minlength="11" maxlength="11" name="telephone" id="telephone"
+                    placeholder="Mobile Number" required>
+                <input type="date" name="date" min="2023-07-20" max="2024-01-20" id="date" required>
+                <input type="time" name="time" min="12:00" max="19:00" id="time" required>
+                <input type="number" name="party-size" min="1" id="party-size" placeholder="Party Size" required>
+                <br>
+                <textarea name="notes" id="notes" rows="5" cols="40" placeholder="Allergens and notes">Allergens and notes
+                    </textarea>
+                <input type="submit" id="submit" name="submit">
+            </form>
+        </div>
+    </section>
+    <!-- consistent footer-->
     <footer>
         <ul class="social-networks">
             <li>
