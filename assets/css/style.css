@@ -71,13 +71,15 @@ h1 {
     border-bottom: 1px solid white;
 }
 
+/*Video*/
+
 video {
     display: block;
     margin: auto;
-    padding: 35px;
+    padding: 10px;
 }
 
-.two-thirds {}
+/* Main Section*/
 
 .sections {
     width: 66%;
@@ -136,17 +138,36 @@ hr {
     overflow: hidden;
 }
 
+#menu-span {
+    background-color: white;
+    display: inline-block;
+    height: 30px;
+    width: 70px;
+    border-radius: 30%;
+}
+
+#menu-button {
+    text-decoration: none;
+    color: black;
+    font-size: 125%;
+    vertical-align: middle;
+}
+
+/* Opening Times table */
+
 #timetable {
     height: 80%;
     margin: auto;
 }
+
+/* Google maps embed */
 
 #map-div {
     background-color: black;
     color: white;
     height: 325px;
     width: 80%;
-    margin: auto;
+    margin: 20px auto;
     text-align: center;
     overflow: hidden;
 }
@@ -155,6 +176,17 @@ hr {
     height: 300px;
     width: 100%;
 }
+
+/* Menu styling*/
+.menu-div {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+/*footer section*/
 
 footer {
     height: 150px;
